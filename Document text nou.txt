@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class TEST {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		int x = 0,y ;
+		System.out.println("Introduceti x :");
+		x=sc.nextInt();
+		if (x>12) { 
+			y=x/3;
+		}else {
+			y=7*x+3;
+		}
+		System.out.println("Y="+y);
+		sc.close();
+	}
+}

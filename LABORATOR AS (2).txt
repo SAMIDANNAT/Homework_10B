@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class LABORATOR {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+Scanner c=new Scanner (System.in);
+double s=0 ;
+Double n=c.nextDouble();
+for ( double i=1 ; i<=n; i++) {
+s=s+(1/(2*i-1));
+}
+System.out.println ("suma = " +s);
+}
+}
